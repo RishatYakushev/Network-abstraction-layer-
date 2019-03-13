@@ -255,6 +255,7 @@
 				D26F008622388A11006FEE95 /* Frameworks */,
 				D26F008722388A11006FEE95 /* Resources */,
 				CE8FCB90B4E6790E2B498886 /* [CP] Embed Pods Frameworks */,
+				D26F00E22238F15A006FEE95 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -463,6 +464,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-network-abstraction-layer/Pods-network-abstraction-layer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D26F00E22238F15A006FEE95 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
