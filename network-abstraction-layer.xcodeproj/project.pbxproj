@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034C1E895EDAD20DDDDB2EA2 /* Pods_network_abstraction_layer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69AA2F0DDC5A9DFB156CC615 /* Pods_network_abstraction_layer.framework */; };
+		B5F6868EDBBAEDB79130B244 /* Pods_network_abstraction_layerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181008293445C1FEA9AB357A /* Pods_network_abstraction_layerTests.framework */; };
+		D26F008D22388A11006FEE95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F008C22388A11006FEE95 /* AppDelegate.swift */; };
+		D26F008F22388A11006FEE95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F008E22388A11006FEE95 /* ViewController.swift */; };
+		D26F009222388A11006FEE95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26F009022388A11006FEE95 /* Main.storyboard */; };
+		D26F009522388A11006FEE95 /* network_abstraction_layer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D26F009322388A11006FEE95 /* network_abstraction_layer.xcdatamodeld */; };
+		D26F009722388A12006FEE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26F009622388A12006FEE95 /* Assets.xcassets */; };
+		D26F009A22388A12006FEE95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26F009822388A12006FEE95 /* LaunchScreen.storyboard */; };
+		D26F00A522388A12006FEE95 /* network_abstraction_layerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00A422388A12006FEE95 /* network_abstraction_layerTests.swift */; };
+		D26F00B022388A12006FEE95 /* network_abstraction_layerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00AF22388A12006FEE95 /* network_abstraction_layerUITests.swift */; };
+		DC84C0531216CE6648ED3947 /* Pods_network_abstraction_layerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A23BD065F639501B9BC3F5 /* Pods_network_abstraction_layerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D26F00A122388A12006FEE95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D26F008122388A11006FEE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26F008822388A11006FEE95;
+			remoteInfo = "network-abstraction-layer";
+		};
+		D26F00AC22388A12006FEE95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D26F008122388A11006FEE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26F008822388A11006FEE95;
+			remoteInfo = "network-abstraction-layer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130A3AE99DBD1E052AB067F1 /* Pods-network-abstraction-layerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-network-abstraction-layerUITests.debug.xcconfig"; path = "Target Support Files/Pods-network-abstraction-layerUITests/Pods-network-abstraction-layerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		181008293445C1FEA9AB357A /* Pods_network_abstraction_layerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_network_abstraction_layerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6C7FBB65B6A23D5EC632F3 /* Pods-network-abstraction-layer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-network-abstraction-layer.release.xcconfig"; path = "Target Support Files/Pods-network-abstraction-layer/Pods-network-abstraction-layer.release.xcconfig"; sourceTree = "<group>"; };
+		4A8BC09749972A7776D501BA /* Pods-network-abstraction-layerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-network-abstraction-layerUITests.release.xcconfig"; path = "Target Support Files/Pods-network-abstraction-layerUITests/Pods-network-abstraction-layerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53BD50B045706A58FFDB09AD /* Pods-network-abstraction-layer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-network-abstraction-layer.debug.xcconfig"; path = "Target Support Files/Pods-network-abstraction-layer/Pods-network-abstraction-layer.debug.xcconfig"; sourceTree = "<group>"; };
+		69AA2F0DDC5A9DFB156CC615 /* Pods_network_abstraction_layer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_network_abstraction_layer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71439387F3D4348F44ABB376 /* Pods-network-abstraction-layerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-network-abstraction-layerTests.debug.xcconfig"; path = "Target Support Files/Pods-network-abstraction-layerTests/Pods-network-abstraction-layerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A217A61695BC8A00753EAF11 /* Pods-network-abstraction-layerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-network-abstraction-layerTests.release.xcconfig"; path = "Target Support Files/Pods-network-abstraction-layerTests/Pods-network-abstraction-layerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3A23BD065F639501B9BC3F5 /* Pods_network_abstraction_layerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_network_abstraction_layerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26F008922388A11006FEE95 /* network-abstraction-layer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "network-abstraction-layer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26F008C22388A11006FEE95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D26F008E22388A11006FEE95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D26F009122388A11006FEE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D26F009422388A11006FEE95 /* network_abstraction_layer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = network_abstraction_layer.xcdatamodel; sourceTree = "<group>"; };
+		D26F009622388A12006FEE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D26F009922388A12006FEE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D26F009B22388A12006FEE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26F00A022388A12006FEE95 /* network-abstraction-layerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "network-abstraction-layerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26F00A422388A12006FEE95 /* network_abstraction_layerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network_abstraction_layerTests.swift; sourceTree = "<group>"; };
+		D26F00A622388A12006FEE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26F00AB22388A12006FEE95 /* network-abstraction-layerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "network-abstraction-layerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26F00AF22388A12006FEE95 /* network_abstraction_layerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network_abstraction_layerUITests.swift; sourceTree = "<group>"; };
+		D26F00B122388A12006FEE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D26F008622388A11006FEE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034C1E895EDAD20DDDDB2EA2 /* Pods_network_abstraction_layer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F009D22388A12006FEE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F6868EDBBAEDB79130B244 /* Pods_network_abstraction_layerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F00A822388A12006FEE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC84C0531216CE6648ED3947 /* Pods_network_abstraction_layerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59FF47A6C826E244FEFAD7D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53BD50B045706A58FFDB09AD /* Pods-network-abstraction-layer.debug.xcconfig */,
+				2A6C7FBB65B6A23D5EC632F3 /* Pods-network-abstraction-layer.release.xcconfig */,
+				71439387F3D4348F44ABB376 /* Pods-network-abstraction-layerTests.debug.xcconfig */,
+				A217A61695BC8A00753EAF11 /* Pods-network-abstraction-layerTests.release.xcconfig */,
+				130A3AE99DBD1E052AB067F1 /* Pods-network-abstraction-layerUITests.debug.xcconfig */,
+				4A8BC09749972A7776D501BA /* Pods-network-abstraction-layerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAE9D9AE45C53B87A09FB0F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69AA2F0DDC5A9DFB156CC615 /* Pods_network_abstraction_layer.framework */,
+				181008293445C1FEA9AB357A /* Pods_network_abstraction_layerTests.framework */,
+				C3A23BD065F639501B9BC3F5 /* Pods_network_abstraction_layerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D26F008022388A11006FEE95 = {
+			isa = PBXGroup;
+			children = (
+				D26F008B22388A11006FEE95 /* network-abstraction-layer */,
+				D26F00A322388A12006FEE95 /* network-abstraction-layerTests */,
+				D26F00AE22388A12006FEE95 /* network-abstraction-layerUITests */,
+				D26F008A22388A11006FEE95 /* Products */,
+				59FF47A6C826E244FEFAD7D7 /* Pods */,
+				BAE9D9AE45C53B87A09FB0F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D26F008A22388A11006FEE95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D26F008922388A11006FEE95 /* network-abstraction-layer.app */,
+				D26F00A022388A12006FEE95 /* network-abstraction-layerTests.xctest */,
+				D26F00AB22388A12006FEE95 /* network-abstraction-layerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26F008B22388A11006FEE95 /* network-abstraction-layer */ = {
+			isa = PBXGroup;
+			children = (
+				D26F008C22388A11006FEE95 /* AppDelegate.swift */,
+				D26F008E22388A11006FEE95 /* ViewController.swift */,
+				D26F009022388A11006FEE95 /* Main.storyboard */,
+				D26F009622388A12006FEE95 /* Assets.xcassets */,
+				D26F009822388A12006FEE95 /* LaunchScreen.storyboard */,
+				D26F009B22388A12006FEE95 /* Info.plist */,
+				D26F009322388A11006FEE95 /* network_abstraction_layer.xcdatamodeld */,
+			);
+			path = "network-abstraction-layer";
+			sourceTree = "<group>";
+		};
+		D26F00A322388A12006FEE95 /* network-abstraction-layerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D26F00A422388A12006FEE95 /* network_abstraction_layerTests.swift */,
+				D26F00A622388A12006FEE95 /* Info.plist */,
+			);
+			path = "network-abstraction-layerTests";
+			sourceTree = "<group>";
+		};
+		D26F00AE22388A12006FEE95 /* network-abstraction-layerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D26F00AF22388A12006FEE95 /* network_abstraction_layerUITests.swift */,
+				D26F00B122388A12006FEE95 /* Info.plist */,
+			);
+			path = "network-abstraction-layerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26F008822388A11006FEE95 /* network-abstraction-layer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26F00B422388A12006FEE95 /* Build configuration list for PBXNativeTarget "network-abstraction-layer" */;
+			buildPhases = (
+				B5A11D4A597C16C25F916BA5 /* [CP] Check Pods Manifest.lock */,
+				D26F008522388A11006FEE95 /* Sources */,
+				D26F008622388A11006FEE95 /* Frameworks */,
+				D26F008722388A11006FEE95 /* Resources */,
+				CE8FCB90B4E6790E2B498886 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "network-abstraction-layer";
+			productName = "network-abstraction-layer";
+			productReference = D26F008922388A11006FEE95 /* network-abstraction-layer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D26F009F22388A12006FEE95 /* network-abstraction-layerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26F00B722388A12006FEE95 /* Build configuration list for PBXNativeTarget "network-abstraction-layerTests" */;
+			buildPhases = (
+				7DD286B4799265C39EA76E96 /* [CP] Check Pods Manifest.lock */,
+				D26F009C22388A12006FEE95 /* Sources */,
+				D26F009D22388A12006FEE95 /* Frameworks */,
+				D26F009E22388A12006FEE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26F00A222388A12006FEE95 /* PBXTargetDependency */,
+			);
+			name = "network-abstraction-layerTests";
+			productName = "network-abstraction-layerTests";
+			productReference = D26F00A022388A12006FEE95 /* network-abstraction-layerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D26F00AA22388A12006FEE95 /* network-abstraction-layerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26F00BA22388A12006FEE95 /* Build configuration list for PBXNativeTarget "network-abstraction-layerUITests" */;
+			buildPhases = (
+				68840931E59918FA21DA2A0C /* [CP] Check Pods Manifest.lock */,
+				D26F00A722388A12006FEE95 /* Sources */,
+				D26F00A822388A12006FEE95 /* Frameworks */,
+				D26F00A922388A12006FEE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26F00AD22388A12006FEE95 /* PBXTargetDependency */,
+			);
+			name = "network-abstraction-layerUITests";
+			productName = "network-abstraction-layerUITests";
+			productReference = D26F00AB22388A12006FEE95 /* network-abstraction-layerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D26F008122388A11006FEE95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ришат Якушев";
+				TargetAttributes = {
+					D26F008822388A11006FEE95 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D26F009F22388A12006FEE95 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D26F008822388A11006FEE95;
+					};
+					D26F00AA22388A12006FEE95 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D26F008822388A11006FEE95;
+					};
+				};
+			};
+			buildConfigurationList = D26F008422388A11006FEE95 /* Build configuration list for PBXProject "network-abstraction-layer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D26F008022388A11006FEE95;
+			productRefGroup = D26F008A22388A11006FEE95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26F008822388A11006FEE95 /* network-abstraction-layer */,
+				D26F009F22388A12006FEE95 /* network-abstraction-layerTests */,
+				D26F00AA22388A12006FEE95 /* network-abstraction-layerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D26F008722388A11006FEE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26F009A22388A12006FEE95 /* LaunchScreen.storyboard in Resources */,
+				D26F009722388A12006FEE95 /* Assets.xcassets in Resources */,
+				D26F009222388A11006FEE95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F009E22388A12006FEE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F00A922388A12006FEE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68840931E59918FA21DA2A0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-network-abstraction-layerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD286B4799265C39EA76E96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-network-abstraction-layerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5A11D4A597C16C25F916BA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-network-abstraction-layer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE8FCB90B4E6790E2B498886 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-network-abstraction-layer/Pods-network-abstraction-layer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-network-abstraction-layer/Pods-network-abstraction-layer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D26F008522388A11006FEE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26F008F22388A11006FEE95 /* ViewController.swift in Sources */,
+				D26F008D22388A11006FEE95 /* AppDelegate.swift in Sources */,
+				D26F009522388A11006FEE95 /* network_abstraction_layer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F009C22388A12006FEE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26F00A522388A12006FEE95 /* network_abstraction_layerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26F00A722388A12006FEE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26F00B022388A12006FEE95 /* network_abstraction_layerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D26F00A222388A12006FEE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D26F008822388A11006FEE95 /* network-abstraction-layer */;
+			targetProxy = D26F00A122388A12006FEE95 /* PBXContainerItemProxy */;
+		};
+		D26F00AD22388A12006FEE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D26F008822388A11006FEE95 /* network-abstraction-layer */;
+			targetProxy = D26F00AC22388A12006FEE95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D26F009022388A11006FEE95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26F009122388A11006FEE95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D26F009822388A12006FEE95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26F009922388A12006FEE95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D26F00B222388A12006FEE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D26F00B322388A12006FEE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D26F00B522388A12006FEE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BD50B045706A58FFDB09AD /* Pods-network-abstraction-layer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5N48U2FLN;
+				INFOPLIST_FILE = "network-abstraction-layer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.network-abstraction-layer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D26F00B622388A12006FEE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6C7FBB65B6A23D5EC632F3 /* Pods-network-abstraction-layer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5N48U2FLN;
+				INFOPLIST_FILE = "network-abstraction-layer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.network-abstraction-layer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D26F00B822388A12006FEE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71439387F3D4348F44ABB376 /* Pods-network-abstraction-layerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5N48U2FLN;
+				INFOPLIST_FILE = "network-abstraction-layerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.network-abstraction-layerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/network-abstraction-layer.app/network-abstraction-layer";
+			};
+			name = Debug;
+		};
+		D26F00B922388A12006FEE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A217A61695BC8A00753EAF11 /* Pods-network-abstraction-layerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5N48U2FLN;
+				INFOPLIST_FILE = "network-abstraction-layerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.network-abstraction-layerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/network-abstraction-layer.app/network-abstraction-layer";
+			};
+			name = Release;
+		};
+		D26F00BB22388A12006FEE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130A3AE99DBD1E052AB067F1 /* Pods-network-abstraction-layerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5N48U2FLN;
+				INFOPLIST_FILE = "network-abstraction-layerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.network-abstraction-layerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "network-abstraction-layer";
+			};
+			name = Debug;
+		};
+		D26F00BC22388A12006FEE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8BC09749972A7776D501BA /* Pods-network-abstraction-layerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5N48U2FLN;
+				INFOPLIST_FILE = "network-abstraction-layerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.network-abstraction-layerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "network-abstraction-layer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D26F008422388A11006FEE95 /* Build configuration list for PBXProject "network-abstraction-layer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26F00B222388A12006FEE95 /* Debug */,
+				D26F00B322388A12006FEE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26F00B422388A12006FEE95 /* Build configuration list for PBXNativeTarget "network-abstraction-layer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26F00B522388A12006FEE95 /* Debug */,
+				D26F00B622388A12006FEE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26F00B722388A12006FEE95 /* Build configuration list for PBXNativeTarget "network-abstraction-layerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26F00B822388A12006FEE95 /* Debug */,
+				D26F00B922388A12006FEE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26F00BA22388A12006FEE95 /* Build configuration list for PBXNativeTarget "network-abstraction-layerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26F00BB22388A12006FEE95 /* Debug */,
+				D26F00BC22388A12006FEE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D26F009322388A11006FEE95 /* network_abstraction_layer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D26F009422388A11006FEE95 /* network_abstraction_layer.xcdatamodel */,
+			);
+			currentVersion = D26F009422388A11006FEE95 /* network_abstraction_layer.xcdatamodel */;
+			path = network_abstraction_layer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D26F008122388A11006FEE95 /* Project object */;
+}

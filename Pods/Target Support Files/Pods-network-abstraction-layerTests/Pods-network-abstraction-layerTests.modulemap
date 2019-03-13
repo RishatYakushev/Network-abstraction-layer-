@@ -1,0 +1,6 @@
+framework module Pods_network_abstraction_layerTests {
+  umbrella header "Pods-network-abstraction-layerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
