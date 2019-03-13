@@ -208,6 +208,7 @@
 		D26F00C522388BFA006FEE95 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				D26F00D622388DB1006FEE95 /* Service */,
 				D26F00D322388CF6006FEE95 /* Entity */,
 				D26F00C722388C14006FEE95 /* Implementation */,
 				D26F00CB22388C14006FEE95 /* NetworkAdapters.swift */,
@@ -233,6 +234,13 @@
 				D26F00D422388D00006FEE95 /* ListResponse.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		D26F00D622388DB1006FEE95 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
