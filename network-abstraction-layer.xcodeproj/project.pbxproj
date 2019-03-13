@@ -17,6 +17,15 @@
 		D26F009A22388A12006FEE95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26F009822388A12006FEE95 /* LaunchScreen.storyboard */; };
 		D26F00A522388A12006FEE95 /* network_abstraction_layerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00A422388A12006FEE95 /* network_abstraction_layerTests.swift */; };
 		D26F00B022388A12006FEE95 /* network_abstraction_layerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00AF22388A12006FEE95 /* network_abstraction_layerUITests.swift */; };
+		D26F00C022388B78006FEE95 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00BF22388B78006FEE95 /* Constants.swift */; };
+		D26F00C422388BA5006FEE95 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00C322388BA5006FEE95 /* DataRequest.swift */; };
+		D26F00CD22388C14006FEE95 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00C622388C14006FEE95 /* NetworkRequest.swift */; };
+		D26F00CE22388C14006FEE95 /* NetworkGatewayImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00C822388C14006FEE95 /* NetworkGatewayImp.swift */; };
+		D26F00CF22388C14006FEE95 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00C922388C14006FEE95 /* NetworkConstants.swift */; };
+		D26F00D022388C14006FEE95 /* RequestDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00CA22388C14006FEE95 /* RequestDescriptor.swift */; };
+		D26F00D122388C14006FEE95 /* NetworkAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00CB22388C14006FEE95 /* NetworkAdapters.swift */; };
+		D26F00D222388C14006FEE95 /* NetworkGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00CC22388C14006FEE95 /* NetworkGateway.swift */; };
+		D26F00D522388D00006FEE95 /* ListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00D422388D00006FEE95 /* ListResponse.swift */; };
 		DC84C0531216CE6648ED3947 /* Pods_network_abstraction_layerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A23BD065F639501B9BC3F5 /* Pods_network_abstraction_layerUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +70,15 @@
 		D26F00AB22388A12006FEE95 /* network-abstraction-layerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "network-abstraction-layerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26F00AF22388A12006FEE95 /* network_abstraction_layerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network_abstraction_layerUITests.swift; sourceTree = "<group>"; };
 		D26F00B122388A12006FEE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26F00BF22388B78006FEE95 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D26F00C322388BA5006FEE95 /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		D26F00C622388C14006FEE95 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		D26F00C822388C14006FEE95 /* NetworkGatewayImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkGatewayImp.swift; sourceTree = "<group>"; };
+		D26F00C922388C14006FEE95 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		D26F00CA22388C14006FEE95 /* RequestDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDescriptor.swift; sourceTree = "<group>"; };
+		D26F00CB22388C14006FEE95 /* NetworkAdapters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAdapters.swift; sourceTree = "<group>"; };
+		D26F00CC22388C14006FEE95 /* NetworkGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkGateway.swift; sourceTree = "<group>"; };
+		D26F00D422388D00006FEE95 /* ListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +119,6 @@
 				130A3AE99DBD1E052AB067F1 /* Pods-network-abstraction-layerUITests.debug.xcconfig */,
 				4A8BC09749972A7776D501BA /* Pods-network-abstraction-layerUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,9 @@
 		D26F008B22388A11006FEE95 /* network-abstraction-layer */ = {
 			isa = PBXGroup;
 			children = (
+				D26F00C522388BFA006FEE95 /* NetworkManager */,
+				D26F00C122388B8D006FEE95 /* Library */,
+				D26F00BE22388B68006FEE95 /* Constants */,
 				D26F008C22388A11006FEE95 /* AppDelegate.swift */,
 				D26F008E22388A11006FEE95 /* ViewController.swift */,
 				D26F009022388A11006FEE95 /* Main.storyboard */,
@@ -167,6 +187,52 @@
 				D26F00B122388A12006FEE95 /* Info.plist */,
 			);
 			path = "network-abstraction-layerUITests";
+			sourceTree = "<group>";
+		};
+		D26F00BE22388B68006FEE95 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D26F00BF22388B78006FEE95 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D26F00C122388B8D006FEE95 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D26F00C322388BA5006FEE95 /* DataRequest.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		D26F00C522388BFA006FEE95 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				D26F00D322388CF6006FEE95 /* Entity */,
+				D26F00C722388C14006FEE95 /* Implementation */,
+				D26F00CB22388C14006FEE95 /* NetworkAdapters.swift */,
+				D26F00C922388C14006FEE95 /* NetworkConstants.swift */,
+				D26F00CC22388C14006FEE95 /* NetworkGateway.swift */,
+				D26F00C622388C14006FEE95 /* NetworkRequest.swift */,
+				D26F00CA22388C14006FEE95 /* RequestDescriptor.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		D26F00C722388C14006FEE95 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				D26F00C822388C14006FEE95 /* NetworkGatewayImp.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		D26F00D322388CF6006FEE95 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D26F00D422388D00006FEE95 /* ListResponse.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,9 +463,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26F00D522388D00006FEE95 /* ListResponse.swift in Sources */,
+				D26F00D222388C14006FEE95 /* NetworkGateway.swift in Sources */,
+				D26F00D122388C14006FEE95 /* NetworkAdapters.swift in Sources */,
+				D26F00CF22388C14006FEE95 /* NetworkConstants.swift in Sources */,
 				D26F008F22388A11006FEE95 /* ViewController.swift in Sources */,
+				D26F00CE22388C14006FEE95 /* NetworkGatewayImp.swift in Sources */,
+				D26F00C422388BA5006FEE95 /* DataRequest.swift in Sources */,
 				D26F008D22388A11006FEE95 /* AppDelegate.swift in Sources */,
 				D26F009522388A11006FEE95 /* network_abstraction_layer.xcdatamodeld in Sources */,
+				D26F00D022388C14006FEE95 /* RequestDescriptor.swift in Sources */,
+				D26F00CD22388C14006FEE95 /* NetworkRequest.swift in Sources */,
+				D26F00C022388B78006FEE95 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
