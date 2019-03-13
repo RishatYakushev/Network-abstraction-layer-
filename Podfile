@@ -7,6 +7,7 @@ target 'network-abstraction-layer' do
 
   pod 'Alamofire'
   pod 'PromiseKit'
+  pod 'Gloss', '~> 2.0'
 
   # Pods for network-abstraction-layer
 

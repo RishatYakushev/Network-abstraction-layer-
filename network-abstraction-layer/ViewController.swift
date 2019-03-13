@@ -11,12 +11,25 @@ import PromiseKit
 
 class ViewController: UIViewController {
 
+    private lazy var swappiNetworking: SwappiNetworking = SwappiNetworkingImp(
+        networking: AppDelegate.networking
+    )
+    
     // MARK: - UIViewController
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.getUserRewards()
     }
     
     private func getUserRewards() {
+        firstly {
+            swappiNetworking.getPeople()
+        }.done(on: .main) { emptyObject in
+            print(emptyObject)
+        }.catch { error in
+            print(error)
+        }
     }
 }

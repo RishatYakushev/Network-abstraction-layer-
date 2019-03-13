@@ -26,6 +26,9 @@
 		D26F00D122388C14006FEE95 /* NetworkAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00CB22388C14006FEE95 /* NetworkAdapters.swift */; };
 		D26F00D222388C14006FEE95 /* NetworkGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00CC22388C14006FEE95 /* NetworkGateway.swift */; };
 		D26F00D522388D00006FEE95 /* ListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00D422388D00006FEE95 /* ListResponse.swift */; };
+		D26F00E7223924F4006FEE95 /* SwappiNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00E5223924F4006FEE95 /* SwappiNetworking.swift */; };
+		D26F00E8223924F4006FEE95 /* SwappiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00E6223924F4006FEE95 /* SwappiRequest.swift */; };
+		D26F00EC2239267E006FEE95 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00EB2239267E006FEE95 /* Person.swift */; };
 		DC84C0531216CE6648ED3947 /* Pods_network_abstraction_layerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A23BD065F639501B9BC3F5 /* Pods_network_abstraction_layerUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +82,9 @@
 		D26F00CB22388C14006FEE95 /* NetworkAdapters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAdapters.swift; sourceTree = "<group>"; };
 		D26F00CC22388C14006FEE95 /* NetworkGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkGateway.swift; sourceTree = "<group>"; };
 		D26F00D422388D00006FEE95 /* ListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListResponse.swift; sourceTree = "<group>"; };
+		D26F00E5223924F4006FEE95 /* SwappiNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwappiNetworking.swift; sourceTree = "<group>"; };
+		D26F00E6223924F4006FEE95 /* SwappiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwappiRequest.swift; sourceTree = "<group>"; };
+		D26F00EB2239267E006FEE95 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,7 +214,8 @@
 		D26F00C522388BFA006FEE95 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				D26F00D622388DB1006FEE95 /* Service */,
+				D26F00EA22392673006FEE95 /* Models */,
+				D26F00E922392511006FEE95 /* Service */,
 				D26F00D322388CF6006FEE95 /* Entity */,
 				D26F00C722388C14006FEE95 /* Implementation */,
 				D26F00CB22388C14006FEE95 /* NetworkAdapters.swift */,
@@ -236,11 +243,22 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
-		D26F00D622388DB1006FEE95 /* Service */ = {
+		D26F00E922392511006FEE95 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				D26F00E5223924F4006FEE95 /* SwappiNetworking.swift */,
+				D26F00E6223924F4006FEE95 /* SwappiRequest.swift */,
 			);
-			path = Service;
+			name = Service;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D26F00EA22392673006FEE95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D26F00EB2239267E006FEE95 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,6 +469,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-network-abstraction-layer/Pods-network-abstraction-layer-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Gloss/Gloss.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -458,6 +477,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gloss.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,8 +500,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -490,14 +509,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26F00EC2239267E006FEE95 /* Person.swift in Sources */,
 				D26F00D522388D00006FEE95 /* ListResponse.swift in Sources */,
 				D26F00D222388C14006FEE95 /* NetworkGateway.swift in Sources */,
 				D26F00D122388C14006FEE95 /* NetworkAdapters.swift in Sources */,
 				D26F00CF22388C14006FEE95 /* NetworkConstants.swift in Sources */,
 				D26F008F22388A11006FEE95 /* ViewController.swift in Sources */,
 				D26F00CE22388C14006FEE95 /* NetworkGatewayImp.swift in Sources */,
+				D26F00E7223924F4006FEE95 /* SwappiNetworking.swift in Sources */,
 				D26F00C422388BA5006FEE95 /* DataRequest.swift in Sources */,
 				D26F008D22388A11006FEE95 /* AppDelegate.swift in Sources */,
+				D26F00E8223924F4006FEE95 /* SwappiRequest.swift in Sources */,
 				D26F009522388A11006FEE95 /* network_abstraction_layer.xcdatamodeld in Sources */,
 				D26F00D022388C14006FEE95 /* RequestDescriptor.swift in Sources */,
 				D26F00CD22388C14006FEE95 /* NetworkRequest.swift in Sources */,

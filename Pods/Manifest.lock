@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.8.1)
+  - Gloss (2.1.0)
   - PromiseKit (6.8.3):
     - PromiseKit/CorePromise (= 6.8.3)
     - PromiseKit/Foundation (= 6.8.3)
@@ -12,17 +13,20 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - Gloss (~> 2.0)
   - PromiseKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - Gloss
     - PromiseKit
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Gloss: 13ab6b4b0ff4cb2448466edc957479b1bccea8ba
   PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
 
-PODFILE CHECKSUM: 5de5f3d96205d369cdbdc73bb5050e4bcd183241
+PODFILE CHECKSUM: 995e7febf3e01dacc5aec43242ff84b069c3cbe8
 
 COCOAPODS: 1.6.0.beta.2
