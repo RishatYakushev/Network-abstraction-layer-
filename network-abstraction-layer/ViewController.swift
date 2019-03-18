@@ -20,14 +20,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.getUserRewards()
+        self.getPeople()
     }
     
-    private func getUserRewards() {
+    private func getPeople() {
         firstly {
             swappiNetworking.getPeople()
-        }.done(on: .main) { emptyObject in
-            print(emptyObject)
+        }.done(on: .main) { people in
+            print(people)
         }.catch { error in
             print(error)
         }

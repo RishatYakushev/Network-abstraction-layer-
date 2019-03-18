@@ -28,7 +28,6 @@
 		D26F00D522388D00006FEE95 /* ListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00D422388D00006FEE95 /* ListResponse.swift */; };
 		D26F00E7223924F4006FEE95 /* SwappiNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00E5223924F4006FEE95 /* SwappiNetworking.swift */; };
 		D26F00E8223924F4006FEE95 /* SwappiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00E6223924F4006FEE95 /* SwappiRequest.swift */; };
-		D26F00EC2239267E006FEE95 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F00EB2239267E006FEE95 /* Person.swift */; };
 		DC84C0531216CE6648ED3947 /* Pods_network_abstraction_layerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A23BD065F639501B9BC3F5 /* Pods_network_abstraction_layerUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,7 +83,6 @@
 		D26F00D422388D00006FEE95 /* ListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListResponse.swift; sourceTree = "<group>"; };
 		D26F00E5223924F4006FEE95 /* SwappiNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwappiNetworking.swift; sourceTree = "<group>"; };
 		D26F00E6223924F4006FEE95 /* SwappiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwappiRequest.swift; sourceTree = "<group>"; };
-		D26F00EB2239267E006FEE95 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,7 +212,6 @@
 		D26F00C522388BFA006FEE95 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				D26F00EA22392673006FEE95 /* Models */,
 				D26F00E922392511006FEE95 /* Service */,
 				D26F00D322388CF6006FEE95 /* Entity */,
 				D26F00C722388C14006FEE95 /* Implementation */,
@@ -251,14 +248,6 @@
 			);
 			name = Service;
 			path = "New Group";
-			sourceTree = "<group>";
-		};
-		D26F00EA22392673006FEE95 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D26F00EB2239267E006FEE95 /* Person.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,7 +489,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -509,7 +499,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D26F00EC2239267E006FEE95 /* Person.swift in Sources */,
 				D26F00D522388D00006FEE95 /* ListResponse.swift in Sources */,
 				D26F00D222388C14006FEE95 /* NetworkGateway.swift in Sources */,
 				D26F00D122388C14006FEE95 /* NetworkAdapters.swift in Sources */,
